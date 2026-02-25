@@ -1,5 +1,5 @@
 # Ecommerce Full-Stack App
-
+this is for learning purpose
 Full-stack e-commerce application with Backend (Node.js + Express), Mobile App (React Native + Expo), and Admin Panel (React + Vite).
 
 ## Tech Stack
