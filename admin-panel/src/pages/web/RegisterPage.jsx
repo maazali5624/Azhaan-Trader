@@ -32,7 +32,7 @@ export default function RegisterPage() {
     return (
         <div className="container" style={{ padding: '60px 0', maxWidth: 420, margin: '0 auto' }}>
             <h1 style={{ marginBottom: 8 }}>Sign up</h1>
-            <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>Create your Shofy account.</p>
+            <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>Create your AZHAAN TRADER account.</p>
             <form onSubmit={handleSubmit} className="card" style={{ padding: 24 }}>
                 <div style={{ marginBottom: 16 }}>
                     <label className="label">Name</label>

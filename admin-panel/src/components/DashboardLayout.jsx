@@ -44,7 +44,7 @@ const DashboardLayout = () => {
             backgroundClip: 'text',
             margin: 0,
             padding: 0
-          }}>Shofy</h1>
+          }}>AZHAAN TRADER</h1>
           <p style={{ fontSize: 14, color: '#64748b', marginTop: 4 }}>{user?.email}</p>
         </div>
         <nav style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 4 }}>

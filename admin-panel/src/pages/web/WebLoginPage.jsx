@@ -31,7 +31,7 @@ export default function WebLoginPage() {
     return (
         <div className="container" style={{ padding: '60px 0', maxWidth: 420, margin: '0 auto' }}>
             <h1 style={{ marginBottom: 8 }}>Login</h1>
-            <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>Sign in to your Shofy account.</p>
+            <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>Sign in to your AZHAAN TRADER account.</p>
             <form onSubmit={handleSubmit} className="card" style={{ padding: 24 }}>
                 <div style={{ marginBottom: 16 }}>
                     <label className="label">Email</label>

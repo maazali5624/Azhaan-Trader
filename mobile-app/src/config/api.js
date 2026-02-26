@@ -16,21 +16,8 @@ const getApiUrl = () => {
     return process.env.EXPO_PUBLIC_API_URL;
   }
   
-  // Your computer's IP address (update this if it changes)
-  const COMPUTER_IP = '10.252.116.162';
-  
-  // Default configuration
-  // For physical devices, you MUST use your computer's IP address
-  // Make sure your phone and computer are on the same WiFi network
-  if (Platform.OS === 'android') {
-    // Try physical device IP first (most common case)
-    // If using Android Emulator, change this to 'http://10.0.2.2:5000/api'
-    return `http://${COMPUTER_IP}:5000/api`;
-  }
-  
-  // iOS: Use IP for physical device, localhost for simulator
-  // If using iOS Simulator, change this to 'http://localhost:5000/api'
-  return `http://${COMPUTER_IP}:5000/api`;
+  // Default: deployed Vercel backend
+  return 'https://backend-chi-rouge-91.vercel.app/api';
 };
 
 const API_URL = getApiUrl();

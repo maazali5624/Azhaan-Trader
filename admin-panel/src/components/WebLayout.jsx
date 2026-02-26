@@ -31,7 +31,7 @@ export default function WebLayout({ children }) {
             >
                 <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 64, gap: 12, minWidth: 0 }}>
                     <Link to="/" style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text)', letterSpacing: '-0.02em', flexShrink: 0 }} className="header-logo">
-                        Shofy
+                        AZHAAN TRADER (03216031619)
                     </Link>
 
                     <form onSubmit={handleSearch} style={{ flex: '1', maxWidth: 400, display: 'flex', margin: '0 16px' }}>
@@ -164,7 +164,7 @@ export default function WebLayout({ children }) {
             >
                 <div className="container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: 24 }}>
                     <div>
-                        <div style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: 8 }}>Shofy</div>
+                        <div style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: 8 }}>AZHAAN TRADER (03216031619)</div>
                         <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem' }}>Your store. One place for everything.</p>
                     </div>
                     <div style={{ display: 'flex', gap: 24, flexWrap: 'wrap' }}>
@@ -175,7 +175,7 @@ export default function WebLayout({ children }) {
                     </div>
                 </div>
                 <div className="container" style={{ marginTop: 24, paddingTop: 24, borderTop: '1px solid var(--border)', color: 'var(--text-muted)', fontSize: '0.875rem' }}>
-                    © {new Date().getFullYear()} Shofy. Created By RT. All rights reserved.
+                    © {new Date().getFullYear()} AZHAAN TRADER (03216031619). All rights reserved.
                 </div>
             </footer>
         </div>

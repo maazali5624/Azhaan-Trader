@@ -21,7 +21,7 @@ const SettingsPage = () => {
     try {
       const res = await api.get('/settings');
       const s = res.data.data || {};
-      setStoreName(s.storeName || 'Shofy');
+      setStoreName(s.storeName || 'AZHAAN TRADER (03216031619)');
       setStoreDescription(s.storeDescription || 'Your trusted e-commerce platform');
       setEnableEmailNotifications(Boolean(s.enableEmailNotifications));
       setNotifications({
@@ -129,7 +129,7 @@ const SettingsPage = () => {
           )}
 
           {/* Load settings on mount */}
-          
+
 
           {activeTab === 'notifications' && (
             <div style={{ background: '#1e293b', padding: 24, borderRadius: 12 }}>

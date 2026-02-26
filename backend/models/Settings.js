@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const settingsSchema = new mongoose.Schema(
   {
-    storeName: { type: String, default: 'Shofy' },
+    storeName: { type: String, default: 'AZHAAN TRADER (03216031619)' },
     storeDescription: { type: String, default: 'Your trusted e-commerce platform' },
     enableEmailNotifications: { type: Boolean, default: true },
     notifications: {

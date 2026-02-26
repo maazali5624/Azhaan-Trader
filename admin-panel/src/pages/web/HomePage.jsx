@@ -97,7 +97,7 @@ export default function HomePage() {
                             margin: '0 auto 28px',
                         }}
                     >
-                        Shofy connects a fast web storefront, seamless checkout, and powerful admin tools to help you grow your online business with ease.
+                        AZHAAN TRADER connects a fast web storefront, seamless checkout, and powerful admin tools to help you grow your online business with ease.
                     </p>
                     <div style={{ display: 'flex', justifyContent: 'center', gap: 12, flexWrap: 'wrap' }}>
                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
