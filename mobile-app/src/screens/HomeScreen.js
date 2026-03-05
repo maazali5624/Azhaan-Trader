@@ -51,7 +51,7 @@ const HomeScreen = ({ navigation }) => {
       const params = {};
       const trimmedSearch = searchText && searchText.trim() ? searchText.trim() : '';
       const trimmedCategory = categoryFilter && categoryFilter.trim() ? categoryFilter.trim() : '';
-      
+
       if (trimmedSearch) {
         // If search matches a category exactly, use category filter
         const exactCategoryMatch = categories.find(
@@ -69,7 +69,7 @@ const HomeScreen = ({ navigation }) => {
       } else if (trimmedCategory) {
         params.category = trimmedCategory;
       }
-      
+
       const res = await api.get('/products', { params });
       setProducts(res.data.data || []);
     } catch (error) {
@@ -179,12 +179,9 @@ const HomeScreen = ({ navigation }) => {
     <View style={[styles.container, { backgroundColor: theme.background }]}>
       <View style={[styles.header, { backgroundColor: theme.card, paddingTop: insets.top + 16 }]}>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
-          <Text style={[styles.title, { fontSize: 32, fontWeight: '800', letterSpacing: 2 }]}>
-            <Text style={{ color: '#667eea' }}>S</Text>
-            <Text style={{ color: '#764ba2' }}>h</Text>
-            <Text style={{ color: '#f093fb' }}>o</Text>
-            <Text style={{ color: '#4facfe' }}>f</Text>
-            <Text style={{ color: '#00f2fe' }}>y</Text>
+          <Text style={[styles.title, { fontSize: 28, fontWeight: '800', letterSpacing: 2 }]}>
+            <Text style={{ color: '#4facfe' }}>AZHAAN </Text>
+            <Text style={{ color: '#00f2fe' }}>TRADER</Text>
           </Text>
         </View>
         <View style={styles.searchRow}>
