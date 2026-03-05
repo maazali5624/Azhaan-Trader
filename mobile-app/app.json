@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "AZHAAN TRADER",
-    "slug": "azhaan-trader",
+    "slug": "azhaan",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.jpeg",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.jpeg",
       "resizeMode": "contain",
       "backgroundColor": "#1a1a2e"
     },
@@ -16,14 +16,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ecommerce.mobileapp"
+      "bundleIdentifier": "com.azhaantrader.app"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.jpeg",
         "backgroundColor": "#1a1a2e"
       },
-      "package": "com.ecommerce.mobileapp"
+      "package": "com.azhaantrader.app"
     },
     "plugins": [
       "expo-secure-store",
@@ -32,9 +32,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "4bce945f-aeae-45df-8ac0-744f19473e21"
+        "projectId": "5a7f97c4-1e70-43c7-8af7-c53e0ada1fb6"
       }
     },
-    "owner": "maaz5624"
+    "owner": "maazali5624"
   }
 }

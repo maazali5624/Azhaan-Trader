@@ -15,9 +15,9 @@ const getApiUrl = () => {
   if (process.env.EXPO_PUBLIC_API_URL) {
     return process.env.EXPO_PUBLIC_API_URL;
   }
-  
+
   // Default: deployed Vercel backend
-  return 'https://backend-chi-rouge-91.vercel.app/api';
+  return 'https://backend-six-pi-15.vercel.app/api';
 };
 
 const API_URL = getApiUrl();
@@ -53,7 +53,7 @@ api.interceptors.response.use(
     if (error.response?.status === 401) {
       await SecureStore.deleteItemAsync('token');
     }
-    
+
     // Better error messages for network issues
     if (error.code === 'ECONNABORTED' || error.message === 'Network Error' || !error.response) {
       console.error('Network Error:', {
@@ -64,7 +64,7 @@ api.interceptors.response.use(
       });
       error.message = `Cannot connect to server. Please check:\n1. Backend is running\n2. Correct API URL: ${API_URL}\n3. Same WiFi network (for physical device)`;
     }
-    
+
     return Promise.reject(error);
   }
 );
